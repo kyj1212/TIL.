@@ -39,7 +39,7 @@ function solution(n){
 
 function solution(seoul){
     let answer = ''
-    for(let i=0; i< seoul.length; i++){
+    for(let i=0; i< seoul.length; i++)
         if(seoul[i]==='kim'){
             answer = '김서방은 'i'에 있다'
         }
@@ -51,4 +51,12 @@ function solution(seoul){
     for(let i=0; i< seoul.length; i++){
         return 김서방은 i에 있다
     }
-} // 다른 사람이 푼 알고리즘 훨씬 간단하다
+} // 다른 사람이 푼 알고리즘 훨씬  
+
+function solution(x, n) {
+    let answer = [];
+    for(let i=0; i<n; i++){
+        answer.push(x*(i+1))
+    }
+    return answer;
+} //알고리즘 x만큼 간격이 있는 n개의 수 내 코드
