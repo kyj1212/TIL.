@@ -13,7 +13,6 @@ class abc extends compoent{
     }
 }
 
-그리고 실행시에는 
 
 밑부분에 보면
 
@@ -38,3 +37,24 @@ class app extends compoent{
 아직은 익숙하지 않지만 잘 쓰면 매우 활용성이 좋을 거 같다 
 
 아 그리고 css도 넣는것도 배웠닷 -끝- 
+
+
+
+
+props란
+
+class abc extends compoent{
+    render(){
+        return{
+            {props.name.gom}
+        }
+    }
+}
+
+class app extends compoent{
+    render(){
+        return{
+            p
+        }
+    }
+}
